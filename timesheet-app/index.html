@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timesheet</title>
+</head>
+<body>
+    <h1>Timesheet</h1>
+    <button id="create-worker">Add Person</button>
+    <!-- What I want it to look like. Eventually I will convert it to DOM controlled-->
+    <div>
+        <span>
+           Eric G
+           <select name="hoursOfDay">
+               <option value="0000">12:00am</option>
+               <option value="0100">01:00am</option>
+               <option value="0200">02:00am</option>
+               <option value="0300">03:00am</option>
+               <option value="0400">04:00am</option>
+               <option value="0500">05:00am</option>
+               <option value="0600">06:00am</option>
+               <option value="0700">07:00am</option>
+               <option value="0800">08:00am</option>
+        </span>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"></script>
+    <script src="../timesheet.js"></script>
+    <script src="./functions.js"></script>
+    <script src="../listeners.js"></script>
+</body>
+</html>
