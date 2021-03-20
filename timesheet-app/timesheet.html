@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timesheet</title>
+</head>
+<body>
+    <button id="home-page">Back to team</button>
+    <div>
+        <span>Team member's name:</span><input type='text'>
+    </div>
+    <!--Dropdown menu for the clock format-->
+    <div>
+        <label for="clock-style">Choose time approach</label>
+        <select name="clock">
+            <option value="regular-style">regular clock</option>
+            <option value="military-style">24 hour</option>
+        </select>
+    </div>
+    
+    <!-- What I want it to look like. Eventually I will convert it to DOM controlled-->
+    <table>
+        <tr>
+            <td>Monday</td>
+            <td>6<span>:</span></td>          
+            <td>05</td>
+            <td><label>AM</label></td>
+        </tr>
+
+    </table>
+    <script src="./timesheet-page.js"></script>
+</body>
+</html>
